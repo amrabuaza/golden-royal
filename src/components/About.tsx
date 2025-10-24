@@ -1,4 +1,4 @@
-import { Building2, FileText, Calendar, Shield } from "lucide-react";
+import { Building2, FileText, Calendar, Shield, Download } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export default function About() {
@@ -30,6 +30,14 @@ export default function About() {
       subtitle: t("about.authorizedCapitalSubtitle"),
     },
   ];
+
+  const handleDownload = (filename: string) => {
+    const link = document.createElement('a');
+    link.href = "https://d3b0v1su6mtr8p.cloudfront.net/Golden-Royal-Commercial-Registry-In-Details.pdf";
+    link.download = filename;
+    link.target = '_blank';
+    link.click();
+  };
 
   return (
     <section
@@ -114,6 +122,34 @@ export default function About() {
             </div>
           </div>
         </div>
+
+                <div className="bg-white rounded-2xl p-8 md:p-12 shadow-xl border-2 border-gold-200">
+          <div className="text-center mb-8">
+            <FileText className="w-16 h-16 text-gold-500 mx-auto mb-4" />
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">
+              {t('about.documents.title')}
+            </h3>
+            <p className="text-gray-600 text-lg">
+              {t('about.documents.description')}
+            </p>
+          </div>
+
+          <div className="grid place-items-center max-w-4xl mx-auto">
+            <button
+              onClick={() => handleDownload('Golden-Royal-Commercial-Registry-In-Details.pdf')}
+              className="group bg-gradient-to-br from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 text-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col items-center w-full"
+            >
+              <Download className="w-12 h-12 mx-auto mb-4 group-hover:scale-110 transition-transform" />
+                     <h4 className="text-xl font-bold mb-2">{t('about.documents.businessLicense')}</h4>
+              <p className="text-gray-100 mb-4">{t('about.documents.businessLicenseSubtitle')}</p>
+              <div className="bg-white/20 px-4 py-2 rounded-lg inline-block">
+                                <span className="text-sm font-medium">{t('about.documents.downloadPdf')}</span>
+
+              </div>
+            </button>
+          </div>
+        </div>
+        
 
         <div className="mt-16 bg-gradient-to-r from-gray-50 via-white to-gray-50 p-8 rounded-xl border-2 border-gray-200 hover:border-gold-500 transition-all duration-500 animate-fade-in-up shadow-lg">
           <div className="max-w-4xl mx-auto">
