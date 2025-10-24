@@ -1,0 +1,130 @@
+{
+  "navbar": {
+    "companyName": "جولدن رويال م.م.ح",
+    "companySubtitle": " GOLDE ROYAL E.Z.FE",
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "gallery": "المعرض"
+  },
+  "home": {
+    "title": "جولدن رويال م.م.ح",
+    "subtitle": " GOLDE ROYAL E.Z.FE",
+    "description": "شريكك الموثوق في تجارة السيارات والخدمات اللوجستية",
+    "subDescription": "نقدم حلولاً شاملة في تجارة السيارات الجديدة والمستعملة، قطع الغيار، والتخليص الجمركي",
+    "licenseNumber": "رقم الرخصة",
+    "location": "الموقع",
+    "established": "تأسست",
+    "services": "خدماتنا",
+    "newCars": {
+      "title": "تجارة السيارات الجديدة",
+      "subtitle": "New Automobile Trading",
+      "description": "تصدير السيارات الجديدة إلى جميع أنحاء العالم"
+    },
+    "customsClearance": {
+      "title": "خدمات التخليص الجمركي",
+      "subtitle": "Customs Clearance",
+      "description": "خدمات تخليص جمركي احترافية وسريعة"
+    },
+    "carAccessories": {
+      "title": "تجارة إكسسوارات السيارات",
+      "subtitle": "Car Accessories Trading",
+      "description": "استيراد وتصدير أفضل إكسسوارات السيارات"
+    },
+    "usedCars": {
+      "title": "تجارة السيارات المستعملة",
+      "subtitle": "Used Cars Trading",
+      "description": "سيارات مستعملة مفحوصة بعناية وجودة عالية"
+    },
+    "spareParts": {
+      "title": "قطع الغيار المستعملة",
+      "subtitle": "Used Spare Parts",
+      "description": "قطع غيار أصلية للسيارات - استيراد وتصدير"
+    },
+    "inquiry": {
+      "title": "هل لديك استفسار؟",
+      "description": "نحن هنا لمساعدتك في جميع احتياجاتك التجارية",
+      "phone": "الهاتف المجاني",
+      "website": "الموقع الإلكتروني",
+      "email": "البريد الإلكتروني"
+    }
+  },
+  "about": {
+    "title": "من نحن",
+    "description": "جولدن رويال م.م.ح - شركة رائدة في تجارة السيارات والخدمات اللوجستية المتكاملة",
+    "legalForm": "الشكل القانوني",
+    "legalFormValue": "مؤسسة منطقة حرة – ذات مسؤولية محدودة",
+    "legalFormSubtitle": "Free Zone Establishment - Limited Liability",
+    "licenseNumber": "رقم الرخصة والسجل",
+    "licenseNumberValue": "37744",
+    "licenseNumberSubtitle": "License & Registration Number",
+    "establishmentDate": "تاريخ التأسيس",
+    "establishmentDateValue": "27 فبراير 2024",
+    "establishmentDateSubtitle": "February 27, 2024",
+    "authorizedCapital": "رأس المال المصرح",
+    "authorizedCapitalValue": "10,000,000 درهم إماراتي",
+    "authorizedCapitalSubtitle": "AED 10,000,000 Authorized Capital",
+    "visionMission": {
+      "title": "رؤيتنا ورسالتنا",
+      "vision": {
+        "title": "رؤيتنا",
+        "description": "أن نكون الشريك الأول والأكثر موثوقية في مجال تجارة السيارات والخدمات اللوجستية في منطقة الشرق الأوسط وخارجها"
+      },
+      "mission": {
+        "title": "رسالتنا",
+        "description": "تقديم خدمات عالية الجودة في تجارة السيارات الجديدة والمستعملة، قطع الغيار، والتخليص الجمركي مع الالتزام بأعلى معايير الاحترافية والشفافية"
+      }
+    },
+    "documents": {
+      "title": "الوثائق الرسمية",
+      "description": "يمكنكم تحميل وثائقنا الرسمية والتراخيص المعتمدة",
+      "businessLicense": "الرخصة التجارية",
+      "businessLicenseSubtitle": "Business License",
+      "commercialRegistry": "السجل التجاري",
+      "commercialRegistrySubtitle": "Commercial Registry",
+      "downloadPdf": "تحميل PDF"
+    },
+    "contactInfo": {
+      "title": "معلومات الاتصال",
+      "address": "العنوان",
+      "addressValue": "مبنى رقم ٤٤ ، الجرف الصناعه ١ ، عجمان, PO box : 20010",
+      "phone": "الهاتف المجاني",
+      "website": "الموقع الإلكتروني",
+      "email": "البريد الإلكتروني"
+    }
+  },
+  "gallery": {
+    "title": "معرض السيارات",
+    "description": "اكتشف مجموعتنا المتنوعة من السيارات الفاخرة والعالية الجودة",
+    "searchTitle": "هل تبحث عن سيارة معينة؟",
+    "searchDescription": "نوفر خدمة البحث والتوريد حسب الطلب. تواصل معنا للحصول على السيارة التي تحلم بها",
+    "phone": "الهاتف المجاني",
+    "website": "الموقع الإلكتروني",
+    "email": "البريد الإلكتروني",
+    "fullView": "عرض كامل",
+    "new": "جديدة",
+    "used": "مستعملة",
+    "photos": "صور",
+    "car0": "رينج روفر أسود",
+    "car1": "فورد F-Series Pickup Raptor",
+    "car2": "مرسيدس-بنز",
+    "car3": "تويوتا سيدان",
+    "car4": "نيسان SUV",
+    "car5": "بي إم دبليو X5 V8",
+    "car6": "أودي سيدان",
+    "car7": "لكزس",
+    "car9": "بورشيه ماكان استاندرد"
+  },
+  "footer": {
+    "rights": "جميع الحقوق محفوظة",
+    "company": "جولدن رويال م.م.ح",
+    "description": "شريكك الموثوق في تجارة السيارات والخدمات اللوجستية المتكاملة في منطقة عجمان الحرة",
+    "companyInfo": "معلومات الشركة",
+    "contactUs": "تواصل معنا",
+    "licenseNumber": "رقم الرخصة",
+    "registrationNumber": "رقم السجل",
+    "freeZoneEstablishment": "مؤسسة منطقة حرة",
+    "capital": "رأس المال",
+    "address": "مبنى رقم ٤٤ ، الجرف الصناعه ١ ، عجمان"  ,
+    "licensedBy": "مرخصة من هيئة المناطق الحرة في عجمان"
+  }
+}
